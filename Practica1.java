@@ -25,7 +25,7 @@ public class Practica1 {
                 System.out.println("El número ingresado es menor");
             } else {
                 System.out.println("¡Felicidades, acertaste!");
-                return; // Termina el juego si acierta
+                return; 
             }
 
             if (intentos == maxIntentos) {
@@ -33,6 +33,6 @@ public class Practica1 {
             }
         }
 
-        scanner.close(); // Cierra el scanner
+        scanner.close(); 
     }
 }
